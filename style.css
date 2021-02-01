@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,#ecf9f2,#9fdfbf);
+    color: #000;
+}
+
+fieldset {
+    border: 2px solid #ecf9f2;
+    border-radius: 5px;
+}
+
+.form-container form {
+    width: 500px;
+    max-width: 100%;
+}
+
+.inputValue-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.center-btn input{
+    margin-left: 20px;
+    border-color: #fff;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #ecf9f2;
+    font-size: 20px;
+    outline: none;
+}
+
+div.answer {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}

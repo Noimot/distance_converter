@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Distance Converter</title>
+</head>
+<body>
+
+    <section class= "main-container">
+        <div class= "form-container">
+            <form action="#">
+                <fieldset>
+                    <legend>Distance Converter</legend>
+
+                    <div class="inputValue-div">
+                        <label for="input-value">Distance to convert:</label>
+                        <input type="number" name="input-value" id="input_value" autofocus required>
+                    </div>
+
+                    <div class="select-container">
+                    <div>
+                        <label for="convertFrom"> convert:</label>
+                        <select name="convertFrom" id="convertFrom">
+                            <option value="kilometer">Kilometer</option>
+                            <option value="meter">Meter</option>
+                            <option value="miles">Miles</option>
+                            <option value="centimeter">Centimeter</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="convertTo">to:</label>
+                        <select name="convertFrom" id="convertTo">
+                            <option value="kilometer">Kilometer</option>
+                            <option value="meter">Meter</option>
+                            <option value="miles">Miles</option>
+                            <option value="centimeter">Centimeter</option>
+                        </select>
+                    </div>
+                </div>
+
+                    <div class="center-btn">
+                        <input type="submit" id="calculateBtn" value="calculate">
+                        <input type="submit" id="clearBtn" value="clear">
+                    </div>
+
+                    <div class="answer">
+                        <label for="" id="calculatorAnswer">Answer: </label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <script src= "https://drive.google.com/uc?id=1horeAkIurcaKbeJPblmIixj5EEPxK7He"></script>
+    <script src="converter.js"></script>
+    
+</body>
+</html>
+
+
