@@ -51,6 +51,7 @@ function calculateType(type) {
 
 
 clearBtn.addEventListener("click", function () {
-    if (input_value.value == "")
-    converter.clearBtn(input_value.value);
+    input_value.value = ""
+    calculatorAnswer.innerText = ""
+  
 })
